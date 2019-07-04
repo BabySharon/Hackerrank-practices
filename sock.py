@@ -13,13 +13,8 @@ def sockMerchant(n,ar):
                 break
 
         i=i+1
-
-
-
-
     print(count)
 n = int(input())
 ar=[]
 ar = [int(i) for i in input().split(" ")]
-
 sockMerchant(n,ar)
